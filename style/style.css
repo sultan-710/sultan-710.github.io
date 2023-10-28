@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Righteous", cursive;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+/*---------------------------Header---------------------------*/
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(4, 9, 30, 0)),
+    url(/img/background.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.header img {
+  width: 50px;
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 50px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: #56b1f0;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.text-box {
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box h1 {
+  font-size: 70px;
+  margin: auto;
+}
+
+.text-box p {
+  margin: 30px 50px 40px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.hero-btn {
+  background: #56b1f0;
+  border-radius: 4px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+
+
+/* -------------------------------------About us---------------------------- */
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.course h1 {
+  font-size: 70px;
+}
+
+.course-col p {
+  color: rgb(250, 250, 250);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.row {
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-col {
+  flex-basis: 31%;
+  background: #56b1f0;
+  border-radius: 35px;
+  margin-bottom: 2%;
+  padding: 20px 5px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+h3 h5 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.about-hero-btn {
+  background: #000000;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 34px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+}
+
+.course-col,
+a,
+h3 {
+  color: #fff;
+  border-radius: 35px;
+}
+
+.course-col:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  background-color: #000000;
+}
+
+.course-col,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+/*------------------------------------------show-case-section--------------------------------*/
+
+.box {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.box .headercontent {
+  position: relative;
+}
+
+.box .amsterdam {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.box .community {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 398px;
+}
+.box img {
+  position: relative;
+  width: 820px;
+  height: 379px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 160px;
+  font-family: "Righteous", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+}
+
+.box .shotlikepro {
+  display: inline-flex;
+  align-items: flex-start;
+  position: absolute;
+  left: 842px;
+}
+
+.box .shotlikepro-box {
+  position: relative;
+  width: 680px;
+  height: 777px;
+  object-fit: cover;
+}
+
+.box .shotlikepro-text {
+  position: absolute;
+  width: 100%;
+  top: 357px;
+  font-family: "Righteous", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* I have copied this animation from animista.net website  */
+.box .headercontent > div {
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.box .headercontent > div .content {
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box .headercontent > div .back {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  background-color: #000000;
+  position: absolute;
+  border-radius: 30px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.box .headercontent > div .back p {
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.box .headercontent > div:hover {
+  transform: rotateY(180deg);
+}
+
+@keyframes flipIn {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes flipOut {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+/*---------------------------------------------Contact-Section----------------------------------*/
+
+.Contactbox {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  padding-top: 60px;
+  top: 800px;
+}
+
+.Contactbox .contactsection {
+  position: relative;
+  width: 1440px;
+  height: 183px;
+  top: 0;
+  left: 0;
+}
+
+.Contactbox .overlap-group {
+  position: relative;
+}
+
+.Contactbox .rectangle {
+  position: absolute;
+  width: 1330px;
+  height: 183px;
+  top: 0;
+  left: 190px;
+  background-color: #56b1f0;
+  border-radius: 30px;
+}
+
+.Contactbox .text-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 60px;
+  left: 90px;
+  font-family: "Righteous", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.Contactbox .lettering-contact-us {
+  position: absolute;
+  width: 275px;
+  height: 162px;
+}
+
+.Contactbox .button {
+  display: flex;
+  width: 150px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  position: absolute;
+  top: 125px;
+  left: 760px;
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+.Contactbox .get-started {
+  position: relative;
+  font-family: "Righteous", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/*------------------------------------------------Footer-------------------------------------*/
+
+.footerbox {
+  width: 100%;
+  height: 3.75em;
+}
+
+.footerbox .footer {
+  position: relative;
+  top: 53.125em;
+  width: 100%;
+  height: 4.0625em;
+  margin: auto;
+}
+
+.footerbox .img {
+  position: relative;
+  justify-content: space-between;
+  display: inline-block;
+  width: 1.875em;
+  height: 1.875em;
+  top: 4.375em;
+  left: 104.125em;
+}
+
+.footerbox .copyright {
+  position: absolute;
+  width: 21.875em;
+  left: 3.125em;
+  top: 1.625em;
+  color: #000000;
+  text-align: right;
+}
+
+.footerbox .navbar {
+  position: absolute;
+  right: 5em;
+  display: flex;
+  list-style-type: none;
+}
+
+.footerbox .navbar a {
+  color: #000000;
+  text-align: right;
+  text-decoration: none;
+  margin-right: 3.75em;
+}
+
+.footerbox .navbar a:hover {
+  color: #56b1f0;
+}

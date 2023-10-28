@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Righteous", cursive;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*--------------------------------------------- Header + Hero section ---------------------------------------------*/
+  
+  .header {
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav img {
+    width: 50px;
+  }
+  
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  
+  .nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover::after {
+    width: 100%;
+  }
+  
+  .text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .text-box h1 {
+    font-size: 70px;
+    margin: auto;
+  }
+  
+  .text-box p {
+    margin: 30px 50px 40px;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .hero-btn {
+    background: #3c474f;
+    border-radius: 4px;
+    padding: 16px;
+    cursor: pointer;
+  }
+  
+  .box {
+    position: relative;
+    width: 1440px;
+    margin: auto;
+  }
+  
+  .box .page-content {
+    position: relative;
+    width: 1440px;
+    height: 703px;
+    bottom: 0px;
+  }
+  
+  .page-content .button {
+    display: flex;
+    width: 130px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    position: absolute;
+    top: 650px;
+    color: white;
+    background-color: #000000;
+    border-radius: 4px;
+  }
+  
+  .box .picture-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 167px;
+    left: 448px;
+  }
+  
+  .box .picture-frame {
+    position: relative;
+    width: 892px;
+    height: 536px;
+    z-index: 1;
+  }
+  
+  .box .pictures {
+    position: absolute;
+  }
+  
+  .box .IMG {
+    position: absolute;
+    width: 600px;
+    top: 1px;
+    border-radius: 30px 0px 0px 30px;
+    left: 5px;
+    height: 533px;
+    object-fit: cover;
+  }
+  
+  .box .img {
+    position: absolute;
+    width: 288px;
+    border-radius: 0px 30px 0px 0px;
+    height: 267px;
+    top: 2px;
+    left: 598px;
+    object-fit: cover;
+  }
+  
+  .box .IMG-2 {
+    position: absolute;
+    border-radius: 0px 0px 30px 0px;
+    width: 287px;
+    height: 264px;
+    top: 269px;
+    left: 600px;
+    object-fit: cover;
+  }
+  
+  .box article {
+    position: absolute;
+    width: 366px;
+    top: 169px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+  }
+  
+  .box .text-wrapper {
+    position: absolute;
+    width: 871px;
+    left: 730px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 5;
+  }
+  
+  /*----------------------------------- Showcase section -----------------------*/
+  /*----------------------------------- Showcase Landscape and Bridges -----------------------*/
+  
+  .subShowcase {
+    position: relative;
+    top: 150px;
+  }
+  
+  .showcase {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    background-color: white;
+  }
+  
+  .showcase .sub {
+    position: relative;
+    width: 100%;
+    height: 850px;
+  }
+  
+  .showcase .overlap-group-showcase {
+    position: relative;
+    width: 1440px;
+    margin: auto;
+    height: 850px;
+    background-size: 100% 100%;
+  }
+  
+  .showcase .img-showcase1 {
+    position: absolute;
+    border-radius: 30px;
+    width: 819px;
+    height: 500px;
+    top: 276px;
+    left: 75px;
+    object-fit: cover;
+  }
+  
+  .showcase .img-showcase2 {
+    height: 250px;
+    border-radius: 30px;
+    top: 276px;
+    position: absolute;
+    width: 450px;
+    left: 914px;
+    object-fit: cover;
+  }
+  
+  .showcase .img-showcase3 {
+    height: 239px;
+    border-radius: 30px;
+    top: 537px;
+    position: absolute;
+    width: 450px;
+    left: 914px;
+    object-fit: cover;
+  }
+  
+  .showcase .text-wrapper-showcase {
+    position: absolute;
+    width: 761px;
+    top: 75px;
+    left: 75px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 50px;
+  }
+  
+  .showcase article {
+    position: absolute;
+    width: 1289px;
+    top: 148px;
+    left: 75px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+  }
+  
+  /*----------------------------------- Showcase Historic Architechture -----------------------*/
+  
+  .showcase2 {
+    background-color: #56b1f0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+  }
+  
+  .showcase2 .sub {
+    position: relative;
+    width: 1444px;
+    height: 850px;
+  }
+  
+  .showcase2 .overlap-group {
+    position: relative;
+    width: 1440px;
+    height: 850px;
+    background-image: url(./img/rectangle-10.svg);
+    background-size: 100% 100%;
+  }
+  
+  .showcase2 .img-showcase2-1 {
+    position: absolute;
+    width: 819px;
+    height: 500px;
+    top: 275px;
+    border-radius: 30px;
+    left: 545px;
+    object-fit: cover;
+  }
+  
+  .showcase2 .img-showcase2-2 {
+    height: 239px;
+    top: 275px;
+    border-radius: 30px;
+    position: absolute;
+    width: 450px;
+    left: 75px;
+    object-fit: cover;
+  }
+  
+  .showcase2 .img-showcase2-3 {
+    height: 250px;
+    border-radius: 30px;
+    top: 525px;
+    position: absolute;
+    width: 450px;
+    left: 75px;
+    object-fit: cover;
+  }
+  
+  .showcase2 .text-wrapper {
+    position: absolute;
+    width: 761px;
+    top: 75px;
+    left: 603px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 50px;
+    text-align: right;
+  }
+  
+  .showcase2 .the-city-s-rich {
+    position: absolute;
+    width: 1289px;
+    top: 148px;
+    left: 75px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: right;
+  }
+  
+  /*---------------------------------------------Contact-Section----------------------------------*/
+  
+  .Contactbox {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .Contactbox .contactsection {
+    position: relative;
+    width: 1440px;
+    height: 183px;
+    top: 0;
+    left: 0;
+  }
+  
+  .Contactbox .overlap-group {
+    position: relative;
+  }
+  
+  .Contactbox .rectangle {
+    position: absolute;
+    width: 1180px;
+    height: 183px;
+    top: 0;
+    left: 190px;
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+  
+  .Contactbox .text-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 60px;
+    left: 90px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #56b1f0;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .Contactbox .lettering-contact-us {
+    position: absolute;
+    width: 275px;
+    height: 162px;
+  }
+  
+  .Contactbox .button {
+    display: flex;
+    width: 150px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    position: absolute;
+    top: 125px;
+    left: 760px;
+    background-color: #000000;
+    border-radius: 4px;
+  }
+  
+  .Contactbox .get-started {
+    position: relative;
+    font-family: "Righteous", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  
+  /*------------------------------------------------Footer-------------------------------------*/
+  
+  .footerbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .footerbox .footer {
+    position: relative;
+    top: 11em;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .footerbox .img {
+    position: relative;
+    justify-content: space-between;
+    display: inline-block;
+    width: 1.875em;
+    height: 1.875em;
+    top: 4.375em;
+    left: 104.125em;
+  }
+  
+  .footerbox .copyright {
+    position: absolute;
+    width: 21.875em;
+    left: 3.125em;
+    top: 1.625em;
+    color: #000000;
+    text-align: right;
+  }
+  
+  .footerbox .navbar {
+    position: absolute;
+    right: 5em;
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .footerbox .navbar a {
+    color: #000000;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 3.75em;
+  }
+  
+  .footerbox .navbar a:hover {
+    color: #ffffff;
+  }
+  
