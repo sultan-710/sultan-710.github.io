@@ -1,0 +1,5 @@
+Student name: Sultan Omari
+Student number: 722753
+Student class: HAITFT1F
+GitHub Repository: https://github.com/sultan-710/sultan-710.github.io
+GitHub Pages URL: https://sultan-710.github.io
