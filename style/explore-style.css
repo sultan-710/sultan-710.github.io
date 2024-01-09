@@ -13,6 +13,7 @@ body {
   display: block;
   align-items: center;
   justify-content: center;
+  line-height: auto;
 }
 
 /*--------------------------------------------- Header + Hero section ---------------------------------------------*/
@@ -121,6 +122,7 @@ nav img {
   color: white;
   background-color: #000000;
   border-radius: 4px;
+  border-style: dotted;
 }
 
 .box .picture-container {
@@ -201,6 +203,7 @@ nav img {
 .subShowcase {
   position: relative;
   top: 150px;
+  border-width: auto;
 }
 
 .showcase {
@@ -277,6 +280,8 @@ nav img {
   font-weight: 400;
   color: #000000;
   font-size: 20px;
+  text-indent: 20px;
+  word-spacing: auto;
 }
 
 /*----------------------------------- Showcase Historic Architechture -----------------------*/

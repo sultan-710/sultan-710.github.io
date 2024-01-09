@@ -13,6 +13,7 @@ body {
   display: block;
   align-items: center;
   justify-content: center;
+  line-height: auto;
 }
 
 /*--------------------------------------------- Header + Hero section ---------------------------------------------*/
@@ -99,6 +100,7 @@ nav img {
   color: white;
   background-color: #000000;
   border-radius: 4px;
+  border-style: dotted;
 }
 
 .box .picture-container {
@@ -159,6 +161,8 @@ nav img {
   font-weight: 400;
   color: #ffffff;
   font-size: 25px;
+  text-indent: auto;
+  word-spacing: auto;
 }
 
 .box .text-wrapper {
@@ -179,6 +183,7 @@ nav img {
     width: 100%;
     background-color:#56b1f0;
     margin: auto;
+    border-width: auto;
   }
 .subShowcase {
   position: relative;
