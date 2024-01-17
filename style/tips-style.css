@@ -177,14 +177,119 @@ nav img {
   letter-spacing: 5;
 }
 
+@media (max-width: 768px) {
+  .box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .box .page-content {
+    position: relative;
+    width: 90%;
+    height: 600px;
+    bottom: 0px;
+  }
+
+  .box .picture-container {
+    position: relative;
+    top: 327px;
+    left: 60px;
+  }
+
+  .box .picture-frame {
+    display: block;
+    width: 90%;
+    height: 350px;
+    bottom: 10px;
+    left: 15px;
+    z-index: 1;
+  }
+
+  .box .pictures {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box .IMG {
+    position: relative;
+    width: 350px;
+    height: 310px;
+    margin: 0 10px;
+    top: 10px;
+    object-fit: cover;
+  }
+
+  .box .img {
+    position: relative;
+    width: 165px;
+    height: 160px;
+    left: 0px;
+    top: 10px;
+    padding-right: 25px;
+    object-fit: cover;
+  }
+
+  .box .IMG-2 {
+    position: relative;
+    width: 165px;
+    height: 155px;
+    left: 370px;
+    top: -145px;
+    bottom: 0px;
+    object-fit: cover;
+  }
+
+  .box article {
+    position: absolute;
+    width: 500px;
+    top: 130px;
+    left: 80px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .box .text-wrapper {
+    position: relative;
+    width: 600px;
+    bottom: 380px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    left: 160px;
+    text-align: center;
+  }
+
+  .Headline {
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #000000;
+  }
+
+  .page-content .button {
+    display: flex;
+    width: 200px;
+    height: 20px;
+    padding: 16px;
+    position: relative;
+    top: 780px;
+    color: white;
+    background-color: #000000;
+    border-radius: 4px;
+    border-style: dotted;
+  }
+}
+
 /*----------------------------------- Showcase section -----------------------*/
 /*----------------------------------- Showcase Landscape and Bridges -----------------------*/
 .subShowcase2 {
-    width: 100%;
-    background-color:#56b1f0;
-    margin: auto;
-    border-width: auto;
-  }
+  width: 100%;
+  background-color: #56b1f0;
+  margin: auto;
+  border-width: auto;
+}
 .subShowcase {
   position: relative;
   top: 150px;
@@ -261,7 +366,6 @@ nav img {
   color: #000000;
   font-size: 20px;
 }
-
 
 /*---------------------------------------------Contact-Section----------------------------------*/
 
@@ -341,6 +445,214 @@ nav img {
   white-space: nowrap;
 }
 
+@media (max-width: 768px) {
+  .Contactbox {
+    position: relative;
+    top: 15%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .Contactbox .contactsection {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .Contactbox .overlap-group {
+    display: flex;
+    flex-direction: column;
+    right: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contactbox .rectangle {
+    width: 70%;
+    top: 50px;
+    height: 160px;
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+
+  .Contactbox .text-wrapper {
+    font-size: 20px;
+    top: 100px;
+  }
+
+  .Contactbox .lettering-contact-us {
+    width: auto;
+    height: 120px;
+    left: 10%;
+    top: 55px;
+    margin: 0 auto 20px;
+  }
+
+  .Contactbox .button {
+    width: 100px;
+    height: 36px;
+    padding: 12px;
+    top: 150px;
+    left: 50%;
+  }
+
+  .Contactbox .get-started {
+    font-size: 12px;
+  }
+}
+
+/*--------------------------SHOWCASE-------------*/
+.subShowcase2 {
+  width: 100%;
+  background-color: #56b1f0;
+  margin: auto;
+  border-width: auto;
+}
+.subShowcase {
+  position: relative;
+  top: 150px;
+  background-color: #fff;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.tips ul {
+  padding-top: 50px;
+  list-style-type: disc;
+}
+
+.subShowcase .overlap-group {
+  position: relative;
+  left: 200px;
+  width: 0;
+  height: 950px;
+}
+
+.subShowcase .img {
+  position: absolute;
+  border-radius: 30px;
+  width: 567px;
+  height: 666px;
+  top: 243px;
+  left: 900px;
+  object-fit: cover;
+}
+
+.subShowcase article {
+  position: absolute;
+  width: 660px;
+  top: 243px;
+  left: 75px;
+  font-family: "Righteous", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+}
+
+.subShowcase .text-wrapper {
+  font-family: "Righteous", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+}
+
+.subShowcase .tips {
+  font-size: 20px;
+}
+
+.subShowcase .header {
+  position: absolute;
+  width: 710px;
+  height: 30px;
+  top: 75px;
+  left: 75px;
+  font-family: "Righteous", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 50px;
+}
+
+.subShowcase .header-text {
+  position: absolute;
+  width: 1289px;
+  top: 148px;
+  left: 75px;
+  font-family: "Righteous", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .subShowcase {
+    margin-top: 50px;
+  }
+  .subShowcase .overlap-group {
+    width: 100%;
+  }
+  .subShowcase .img {
+    width: 50%;
+    height: 40%;
+    top: 220px;
+    right: 0;
+    left: -100px;
+    object-fit: cover;
+  }
+  .subShowcase article {
+    width: 90%;
+    height: auto;
+    top: 500px;
+    left: 0;
+  }
+
+  .subShowcase .header {
+    position: absolute;
+    width: 710px;
+    height: 30px;
+    top: 55px;
+    left: -110px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+  }
+
+  .subShowcase .header-text {
+    position: absolute;
+    width: 80%;
+    top: 100px;
+    left: -110px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+  }
+
+  .subShowcase .text-wrapper {
+    position: relative;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    top: 120px;
+    left: -110px;
+    display: flex;
+    width: 87%;
+  }
+
+  .subShowcase .tips {
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    top: 80px;
+    left: -75px;
+    width: 80%;
+  }
+}
+
 /*------------------------------------------------Footer-------------------------------------*/
 
 .footerbox {
@@ -393,4 +705,29 @@ nav img {
 
 .footerbox .navbar a:hover {
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .footerbox .footer {
+    padding-top: 25%;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+  }
+
+  .footerbox .footer img {
+    width: 20px;
+    height: 20px;
+    left: -0;
+  }
+
+  .footerbox .copyright {
+    font-size: 17px;
+    padding-top: 45%;
+    line-height: 50px;
+  }
+
+  .footerbox .navbar {
+    width: 80%;
+  }
 }

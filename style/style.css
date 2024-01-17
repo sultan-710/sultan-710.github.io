@@ -104,6 +104,46 @@ nav img {
   border-style: dotted;
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    min-height: 80vh;
+  }
+
+  .header nav {
+    display: block;
+    padding: 2% 1%;
+    justify-content: center;
+  }
+
+  .header img {
+    width: 40px;
+  }
+
+  .header .nav-links {
+    flex: 1;
+    text-align: center;
+  }
+
+  .header .nav-links ul li {
+    padding: 5px 10px;
+  }
+
+  .header .text-box {
+    width: 100%;
+    position: relative;
+    top: 250px;
+  }
+
+  .header .text-box h1 {
+    font-size: 40px;
+  }
+
+  .header .text-box p {
+    margin: 50px 100px;
+    text-indent: 10px;
+  }
+}
+
 /* -------------------------------------About us---------------------------- */
 .course {
   width: 80%;
@@ -251,32 +291,57 @@ p {
   line-height: normal;
 }
 
-/* I have copied this animation from animista.net website  */
-.box .headercontent > section {
-  transform-style: preserve-3d;
-  transition: transform 0.5s ease;
-}
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+    padding-top: 30px;
+  }
 
-.box .headercontent > section .content {
-  transform: rotateY(0deg);
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
+  .box .headercontent {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.box .headercontent > section.back {
-  transform: rotateY(180deg);
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  background-color: #000000;
-  position: absolute;
-  border-radius: 30px;
-  align-items: center;
-  display: flex;
-  width: 100%;
-  height: 100%;
+  .box .amsterdam,
+  .box .community {
+    height: 300px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10%;
+  }
+
+  .box .amsterdam img,
+  .box .community img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .box .amsterdam .text-wrapper,
+  .box .community .text-wrapper {
+    top: 40%;
+    font-size: 30px;
+  }
+
+  .box .shotlikepro {
+    position: relative;
+    top: 780px;
+    width: 80%;
+    left: 10%;
+  }
+  .box .shotlikepro-box {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .box .shotlikepro-text {
+    top: 50%;
+    font-size: 30px;
+  }
 }
 
 /*---------------------------------------------Contact-Section----------------------------------*/
@@ -353,6 +418,61 @@ p {
   white-space: nowrap;
 }
 
+@media (max-width: 768px) {
+  .Contactbox {
+    position: relative;
+    top: 95%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .Contactbox .contactsection {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .Contactbox .overlap-group {
+    display: flex;
+    flex-direction: column;
+    right: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contactbox .rectangle {
+    width: 70%;
+    height: 200px;
+    background-color: #56b1f0;
+    border-radius: 30px;
+  }
+
+  .Contactbox .text-wrapper {
+    font-size: 24px;
+  }
+
+  .Contactbox .lettering-contact-us {
+    width: auto;
+    height: 120px;
+    left: 10%;
+    top: 10%;
+    margin: 0 auto 20px;
+  }
+
+  .Contactbox .button {
+    width: 100px;
+    height: 36px;
+    padding: 12px;
+    top: 100px;
+    left: 50%;
+  }
+
+  .Contactbox .get-started {
+    font-size: 12px;
+  }
+}
+
 /*------------------------------------------------Footer-------------------------------------*/
 
 .footerbox {
@@ -404,9 +524,30 @@ p {
 .footerbox .navbar a:hover {
   color: #56b1f0;
 }
+@media (max-width: 768px) {
+  .footerbox .footer {
+    padding-top: 25%;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+  }
 
+  .footerbox .footer img {
+    width: 20px;
+    height: 20px;
+    left: -0;
+  }
 
+  .footerbox .copyright {
+    font-size: 17px;
+    padding-top: 45%;
+    line-height: 50px;
+  }
 
+  .footerbox .navbar {
+    width: 80%;
+  }
+}
 .cookie-message {
   display: flex;
   align-items: center;
@@ -418,7 +559,7 @@ p {
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: 9999; /* Setting the z-index property to 9999 */
+  z-index: 9999;
 }
 
 .cookie-btn {
@@ -434,4 +575,16 @@ p {
   background-color: #3477b5;
 }
 
+@media screen and (max-width: 768px) {
+  .cookie-message {
+    flex-direction: column;
+    text-align: center;
+    top: 95%;
+    padding: 15px;
+  }
 
+  .cookie-btn {
+    margin-top: 10px;
+    right: auto;
+  }
+}

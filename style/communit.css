@@ -136,6 +136,77 @@ nav img {
   letter-spacing: 5;
 }
 
+@media (max-width: 768px) {
+  .box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .box .page-content {
+    position: relative;
+    width: 90%;
+    height: 600px;
+    bottom: 0px;
+  }
+
+  .box .picture-container {
+    position: relative;
+    top: 280px;
+    left: 60px;
+  }
+
+  .box .picture-frame {
+    display: block;
+    width: 90%;
+    height: 350px;
+    bottom: 10px;
+    left: 15px;
+    z-index: 1;
+  }
+
+  .box .pictures {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .box article {
+    position: absolute;
+    width: 500px;
+    top: 150px;
+    left: 80px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .box .text-wrapper {
+    position: relative;
+    width: 600px;
+    bottom: 300px;
+    font-family: "Righteous", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    left: 160px;
+    text-align: center;
+  }
+
+  .page-content .button {
+    display: flex;
+    width: 200px;
+    height: 20px;
+    padding: 16px;
+    position: relative;
+    top: 710px;
+    color: white;
+    background-color: #000000;
+    border-radius: 4px;
+    border-style: dotted;
+  }
+}
+
 /*----------------------------------- Showcase section -----------------------*/
 /*----------------------------------- Showcase Landscape and Bridges -----------------------*/
 .subShowcase2 {
@@ -208,6 +279,28 @@ nav img {
   font-size: 20px;
 }
 
+@media (min-width: 768px) {
+  .subShowcase {
+    margin-top: 70px;
+  }
+  .subShowcase .overlap-group {
+    width: 600px;
+    height: 250px;
+  }
+  .subShowcase .header {
+    width: 650px;
+    font-size: 30px;
+    left: -100px;
+  }
+  .subShowcase .header-text {
+    width: 720px;
+    font-size: 15px;
+    width: 100%;
+    left: -90px;
+  }
+}
+
+
 /*---------------------------------------------Contact-Section----------------------------------*/
 
 .Contactbox {
@@ -245,7 +338,7 @@ nav img {
 }
 
 .Contactbox .text-wrapper {
-  position: absolute;
+  position: relative;
   height: 100%;
   width: 100%;
   top: 60px;
@@ -284,6 +377,67 @@ nav img {
   color: #ffffff;
   font-size: 14px;
   white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .Contactbox {
+    position: relative;
+    top: 150%;
+    background-color: #ffffff;
+    transform: translateY(-50%);
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .Contactbox .contactsection {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .Contactbox .overlap-group {
+    display: flex;
+    flex-direction: column;
+    right: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contactbox .rectangle {
+    width: 90%;
+    top: 50px;
+    height: 160px;
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+
+  .Contactbox .text-wrapper {
+    font-size: 20px;
+    width: 80%;
+    display: flex;
+    position: relative;
+    top: 100px;
+  }
+
+  .Contactbox .lettering-contact-us {
+    width: auto;
+    height: 120px;
+    left: 10%;
+    top: 55px;
+    margin: 0 auto 20px;
+  }
+
+  .Contactbox .button {
+    width: 100px;
+    height: 36px;
+    padding: 12px;
+    top: 150px;
+    left: 50%;
+  }
+
+  .Contactbox .get-started {
+    font-size: 12px;
+  }
 }
 
 /*------------------------------------------------Footer-------------------------------------*/
@@ -338,4 +492,30 @@ nav img {
 
 .footerbox .navbar a:hover {
   color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+  .footerbox .footer {
+    padding-top: 25%;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+  }
+
+  .footerbox .footer img {
+    width: 20px;
+    height: 20px;
+    left: -0;
+  }
+
+  .footerbox .copyright {
+    font-size: 17px;
+    padding-top: 45%;
+    line-height: 50px;
+  }
+
+  .footerbox .navbar {
+    width: 80%;
+  }
 }
