@@ -13,7 +13,7 @@ body {
   display: block;
   align-items: center;
   justify-content: center;
-  line-height: auto;
+  line-height: 0px;
 }
 
 /*--------------------------------------------- Header + Hero section ---------------------------------------------*/
@@ -121,7 +121,7 @@ nav img {
   color: #ffffff;
   font-size: 25px;
   text-indent: 20px;
-  word-spacing: auto;
+  word-spacing: 0px;
 }
 
 .box .text-wrapper {
@@ -133,7 +133,7 @@ nav img {
   color: #ffffff;
   font-size: 70px;
   text-align: center;
-  letter-spacing: 5;
+  letter-spacing: 0px;
 }
 
 @media (max-width: 768px) {
@@ -214,7 +214,7 @@ nav img {
   background-color: #56b1f0;
   margin: auto;
   height: 300px;
-  border-width: auto;
+  border-width: 0px;
 }
 
 .page-content .button-2 {

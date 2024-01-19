@@ -13,7 +13,7 @@ body {
   display: block;
   align-items: center;
   justify-content: center;
-  line-height: auto;
+  line-height: 0px;
 }
 
 /*---------------------------Header---------------------------*/
@@ -87,7 +87,7 @@ nav img {
 .text-box h1 {
   font-size: 70px;
   margin: auto;
-  word-spacing: auto;
+  word-spacing: 0px;
 }
 
 .text-box p {
@@ -150,7 +150,7 @@ nav img {
   margin: auto;
   text-align: center;
   padding-top: 60px;
-  border-width: auto;
+  border-width: 0px;
 }
 
 .course h1 {

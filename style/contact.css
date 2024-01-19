@@ -13,7 +13,7 @@ body {
   display: block;
   align-items: center;
   justify-content: center;
-  line-height: auto;
+  line-height: 0px;
 }
 
 /*--------------------------------------------- Header + Hero section ---------------------------------------------*/
@@ -111,7 +111,7 @@ nav img {
   color: #ffffff;
   font-size: 25px;
   text-indent: 20px;
-  word-spacing: auto;
+  word-spacing: 0px;
 }
 
 .box .text-wrapper {
@@ -123,7 +123,7 @@ nav img {
   color: #ffffff;
   font-size: 50px;
   text-align: right;
-  letter-spacing: 5;
+  letter-spacing: 0px;
 }
 
 .box .contact-info {
@@ -138,7 +138,7 @@ nav img {
   color: #000000;
   font-size: 20px;
   text-align: left;
-  letter-spacing: 5;
+  letter-spacing: 0px;
 }
 
 .box .contact-svg {
@@ -400,7 +400,7 @@ input[type="submit"] {
   justify-content: center;
   align-items: center;
   align-content: center;
-  border-width: auto;
+  border-width: 0px;
 }
 
 .Contactbox .contactsection {

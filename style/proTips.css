@@ -13,7 +13,7 @@
     display: block;
     align-items: center;
     justify-content: center;
-    line-height: auto;
+    line-height: 0px;
   }
   
   /*--------------------------------------------- Header + Hero section ---------------------------------------------*/
@@ -82,7 +82,7 @@
   .text-box h1 {
     font-size: 70px;
     margin: auto;
-    word-spacing: auto;
+    word-spacing: 0px;
   }
   
   .text-box p {
@@ -102,7 +102,7 @@
     position: relative;
     width: 1440px;
     margin: auto;
-    text-indent: auto;
+    text-indent: 0px;
   }
   
   .box .page-content {
@@ -196,7 +196,7 @@
     color: #ffffff;
     font-size: 70px;
     text-align: center;
-    letter-spacing: 5;
+    letter-spacing: 5px;
   }
 
   @media (max-width: 768px) {
@@ -310,7 +310,7 @@
   .subShowcase {
     position: relative;
     top: 150px;
-    border-width: auto;
+    border-width: 0px;
   }
   
   .showcase {
@@ -468,7 +468,7 @@
       color: #000000;
       font-size: 14px;
       text-indent: 20px;
-      word-spacing: auto;
+      word-spacing: 0px;
     }
   
     .page-content .button {

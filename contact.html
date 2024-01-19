@@ -1,143 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AmsterdamClicks</title>
-    <link rel="icon" href="img/fav.png" alt="favicon" size="16x16" type="image/x-icon" />
-    <link rel="stylesheet" href="style/contact.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body style="background-color: #56b1f0">
-    <!--------------------------------------------------------------Header + Hero section----------------------------------------------------------------->
-    <section class="header">
-      <nav>
-        <a href="index.html"><img src="./img/logo.png" alt="logo" /></a>
-        <section class="nav-links">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="explore.html">Explore</a></li>
-            <li><a href="tips.html">Tips</a></li>
-            <li><a href="community.html">Community</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </section>
-        <i class="fas fa-bars" onclick="showmenu()"></i>
-      </nav>
-      <section class="box">
-        <section class="page-content">
-          <section class="picture-container">
-            <img class="picture-frame" src="svg/conatct.svg" alt="contact" />
-          </section>
-          <aside>
-            <article>
-              At AmsterdamClicks, we understand that one of the key interests of
-              our vibrant photography community is finding exciting photography
-              events and workshops in Amsterdam. Whether you're a seasoned
-              photographer looking to enhance your skills or a budding enthusiast
-              eager to immerse yourself in the world of photography, we've got you
-              covered.
-            </article>
-          </aside>
-          <section class="text-wrapper"><em>Contact Us</em></section>
-          <aside class="contact-info">
-              <span class="text">info.amsterdamclicks.nl</span>
-              <span class="text">+31 651 7308 72</span>
-          </aside>
-            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" rel="Linked To Your Personal WebEmail!!!">
-              <img class="contact-svg" src="svg/email.svg" alt="email"></img>
-            </a>
-            <img class="contact-svg" src="svg/Phone.svg" alt="phone"/>
-        </section>
-      </section>
-    </section>
-    <!-------------------------------Map-Location section---------------------------------------------------------------->
 
-    <section class="contact-map">
-            <section class="google-maps">
-              <img class="basemap-image" src="img/contact-map.png" alt="contact-map" />
-              <section class="conact-info">
-                <p class="contact-text">Amsterdam Clicks Prins Hendrikkade 142, 1011 AW Amsterdam</p>
-                <p class="contact-text">020 643 2828 Monday / Sunday, 9:00 / 18:00</p>
-                <section class="contact-text">info@amsterdamclicks.nl</section>
-            </section>
-            <contact class="contact-map-icons">
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" rel="Linked To Your Personal WebEmail!!!">
-                    <img class="contact-icons" src="svg/email.svg" alt="email" />
-                </a>
-                <img class="contact-icons" src="svg/Phone.svg" alt="phone" />
-                <img class="contact-icons" src="svg/email.svg" alt="email"/>
-            </contact>
-            
-            </section>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AmsterdamClicks</title>
+  <link rel="icon" href="img/fav.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style/contact.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+</head>
 
-    <!-------------------------------------Conatct-form-Section-------------------------------------------->
-    <form id="contact-form">
-        <legend>Contact Form</legend>
-        <section class="contact-form-img">
-            <img class="img" src="img/contact-form.png" alt="contact form" />
-        </section>
-
-        <section class="form-group">
-            <label><input type="radio" name="gender" value="male" id="male"> Male</label>
-            <label><input type="radio" name="gender" value="female" id="female"> Female</label>
-        </section>
-  
-        <section class="form-group">
-          <label class="placeholder">Full Name:</label>
-          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
-        </section>
-  
-        <section class="form-group">
-          <label class="placeholder">Email:</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-        </section>
-  
-        <section class="form-group">
-            <label class="placeholder">Message:</label>
-          <textarea name="message" placeholder="Your message here" required></textarea>
-        </section>  
-      <section class="form-group">
-        <a href="index.html"><input type="submit" value="Submit Request"></a>
-      </section>
-    </form>
-    
-    <!---------------------------------------------Contact-Section---------------------------------------->
-    <section class="Contactbox">
-        <section class="contactsection">
-            <section class="overlap-group">
-                <section class="rectangle"></section>
-                    <p class="text-wrapper">Looking forward for the best experince</p>
-                    <img class="lettering-contact-us" src="./img/contact.png" alt="contact" />
-                    <button class="button">
-                        <section class="get-started"><a href="contact.html">Contact Us</a></section>
-                    </button>
-            </section>
-        </section>
-    </section>
-    <!--------------------------------------------Footer-Section--------------------------------------------->
-    <section class="footerbox">
-      <footer class="footer">
-        <img class="img" src="svg/facebook.svg" alt="facebook" />
-        <img class="img" src="svg/instagram.svg" alt="instagram"/>
-        <img class="img" src="svg/twitter.svg" alt="twitter"/>
-        <section class="copyright">
-          &copy; 2023 AmsterdamClicks. All rights reserved.
-        </section>
-        <ul class="navbar">
-            <li><a href="index.html">About us</a></li>
-            <li><a href="explore.html">Explore</a></li>
-            <li><a href="tips.html">Tips</a></li>
-            <li><a href="community.html">Community</a></li>
-            <li><a href="contact.html">Contact</a></li>
+<body style="background-color: #56b1f0">
+  <!--------------------------------------------------------------Header + Hero section----------------------------------------------------------------->
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="./img/logo.png" alt="logo" /></a>
+      <section class="nav-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="tips.html">Tips</a></li>
+          <li><a href="community.html">Community</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-      </footer>
+      </section>
+      <i class="fas fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <section class="box">
+      <section class="page-content">
+        <section class="picture-container">
+          <img class="picture-frame" src="svg/conatct.svg" alt="contact" />
+        </section>
+        <aside>
+          <article>
+            At AmsterdamClicks, we understand that one of the key interests of
+            our vibrant photography community is finding exciting photography
+            events and workshops in Amsterdam. Whether you're a seasoned
+            photographer looking to enhance your skills or a budding enthusiast
+            eager to immerse yourself in the world of photography, we've got you
+            covered.
+          </article>
+        </aside>
+        <section class="text-wrapper"><em>Contact Us</em></section>
+        <aside class="contact-info">
+          <span class="text">info.amsterdamclicks.nl</span>
+          <span class="text">+31 651 7308 72</span>
+        </aside>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" rel="Linked To Your Personal WebEmail!!!">
+          <img class="contact-svg" src="svg/email.svg" alt="email" />
+        </a>
+        <img class="contact-svg" src="svg/Phone.svg" alt="phone" />
+      </section>
     </section>
-  </body>
+  </section>
+  <!-------------------------------Map-Location section---------------------------------------------------------------->
+
+  <section class="contact-map">
+    <section class="google-maps">
+      <img class="basemap-image" src="img/contact-map.png" alt="contact-map" />
+      <section class="conact-info">
+        <p class="contact-text">Amsterdam Clicks Prins Hendrikkade 142, 1011 AW Amsterdam</p>
+        <p class="contact-text">020 643 2828 Monday / Sunday, 9:00 / 18:00</p>
+        <section class="contact-text">info@amsterdamclicks.nl</section>
+      </section>
+      <section class="contact-map-icons">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" rel="Linked To Your Personal WebEmail!!!">
+          <img class="contact-icons" src="svg/email.svg" alt="email" />
+        </a>
+        <img class="contact-icons" src="svg/Phone.svg" alt="phone" />
+        <img class="contact-icons" src="svg/email.svg" alt="email" />
+      </section>
+
+    </section>
+  </section>
+
+  <!-------------------------------------Conatct-form-Section-------------------------------------------->
+  <form id="contact-form">
+    <fieldset>
+      <legend>Contact Form</legend>
+      <section class="contact-form-img">
+        <img class="img" src="img/contact-form.png" alt="contact form" />
+      </section>
+
+      <section class="form-group">
+        <label><input type="radio" name="gender" value="male" id="male"> Male</label>
+        <label><input type="radio" name="gender" value="female" id="female"> Female</label>
+      </section>
+
+      <section class="form-group">
+        <label class="placeholder">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+      </section>
+
+      <section class="form-group">
+        <label class="placeholder">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+      </section>
+
+      <section class="form-group">
+        <label class="placeholder">Message:</label>
+        <textarea name="message" placeholder="Your message here" required></textarea>
+      </section>
+      <section class="form-group">
+       <input type="submit" value="Submit Request">
+      </section>
+    </fieldset>
+  </form>
+
+  <!---------------------------------------------Contact-Section---------------------------------------->
+  <section class="Contactbox">
+    <section class="contactsection">
+      <section class="overlap-group">
+        <section class="rectangle"></section>
+        <p class="text-wrapper">Looking forward for the best experince</p>
+        <img class="lettering-contact-us" src="./img/contact.png" alt="contact" />
+        <button class="button">
+        </button>
+        <section class="get-started"><a href="contact.html">Contact Us</a></section>
+      </section>
+    </section>
+  </section>
+  <!--------------------------------------------Footer-Section--------------------------------------------->
+  <section class="footerbox">
+    <footer class="footer">
+      <img class="img" src="svg/facebook.svg" alt="facebook" />
+      <img class="img" src="svg/instagram.svg" alt="instagram" />
+      <img class="img" src="svg/twitter.svg" alt="twitter" />
+      <section class="copyright">
+        &copy; 2023 AmsterdamClicks. All rights reserved.
+      </section>
+      <ul class="navbar">
+        <li><a href="index.html">About us</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </footer>
+  </section>
+</body>
+
 </html>

@@ -13,7 +13,7 @@ body {
   display: block;
   align-items: center;
   justify-content: center;
-  line-height: auto;
+  line-height: 1;
 }
 
 /*--------------------------------------------- Header + Hero section ---------------------------------------------*/
@@ -161,8 +161,8 @@ nav img {
   font-weight: 400;
   color: #ffffff;
   font-size: 25px;
-  text-indent: auto;
-  word-spacing: auto;
+  text-indent: 0;
+  word-spacing: 0;
 }
 
 .box .text-wrapper {
@@ -174,7 +174,7 @@ nav img {
   color: #ffffff;
   font-size: 70px;
   text-align: center;
-  letter-spacing: 5;
+  letter-spacing: 5px;
 }
 
 @media (max-width: 768px) {
@@ -288,7 +288,7 @@ nav img {
   width: 100%;
   background-color: #56b1f0;
   margin: auto;
-  border-width: auto;
+  border-width: 1px;
 }
 .subShowcase {
   position: relative;
@@ -507,7 +507,7 @@ nav img {
   width: 100%;
   background-color: #56b1f0;
   margin: auto;
-  border-width: auto;
+  border-width: 1px;
 }
 .subShowcase {
   position: relative;
