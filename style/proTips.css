@@ -55,6 +55,10 @@
     font-size: 20px;
   }
   
+  .nav-links a:link {
+    text-decoration: none;
+  }
+  
   .nav-links ul li::after {
     content: "";
     width: 0%;

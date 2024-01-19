@@ -49,6 +49,10 @@ nav img {
   position: relative;
 }
 
+.nav-links a:link {
+  text-decoration: none;
+}
+
 .nav-links ul li a {
   color: #fff;
   text-decoration: none;
